@@ -1,27 +1,27 @@
 const learningTopics = [
   {
-    title: "CompTIA Network+",
-    description: "Networking concepts, protocols, and troubleshooting.",
+    title: "Networking Fundamentals",
+    description: "Network protocols, troubleshooting, and infrastructure security.",
   },
   {
-    title: "Cisco Networking",
-    description: "Network configuration, routing, and switching.",
+    title: "Cisco Networking & Security",
+    description: "VLANs, routing, switching, ACLs, and network security configurations.",
   },
   {
-    title: "Linux Fundamentals",
-    description: "Linux commands, file systems, and system administration.",
+    title: "Linux & System Administration",
+    description: "Linux commands, permissions, system administration, and security hardening.",
   },
   {
-    title: "Data Analytics",
-    description: "Data analysis, visualization, and analytical thinking.",
+    title: "Data Analytics & Visualization",
+    description: "Data analysis, Power BI dashboards, and data-driven decision-making.",
   },
   {
-    title: "Cybersecurity",
-    description: "Security fundamentals and practical security labs.",
+    title: "Cybersecurity & Threat Analysis",
+    description: "Network monitoring, packet analysis, vulnerability assessment, and security investigations.",
   },
   {
     title: "Full-Stack Development",
-    description: "Building applications using modern web technologies.",
+    description: "Building responsive web applications and secure backend systems.",
   },
 ];
 
@@ -30,11 +30,11 @@ function CurrentlyLearning() {
     <section id="learning" className="px-6 py-20">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-center text-3xl font-bold">
-          Currently Learning
+          Current Focus Areas
         </h2>
 
         <p className="mt-4 text-center opacity-70">
-          Technologies and professional skills I'm actively developing.
+          Exploring new technologies, strengthening technical expertise, and gaining practical experience through hands-on projects in cybersecurity, networking, software development, and data analytics.
         </p>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

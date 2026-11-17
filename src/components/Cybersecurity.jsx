@@ -25,6 +25,30 @@ const cybersecurityProjects = [
 
     github: "https://github.com/iqara/Secure-Smart-Home-Network",
   },
+  {
+    id: 2,
+    title: "Network Traffic Analysis & Security Monitoring",
+
+    category: "Network Security & Traffic Analysis",
+
+    description:
+      "Conducted a network traffic investigation using Wireshark. Analyzed TCP/UDP communication, DNS queries and responses, HTTPS/TLS traffic, and TCP retransmissions. Examined network statistics and documented findings in a professional cybersecurity analysis report.",
+
+    image: "/projects/wireshark_analysis.png",
+
+    technologies: [
+      "Wireshark",
+      "Npcap",
+      "TCP/IP",
+      "UDP",
+      "DNS",
+      "HTTPS/TLS",
+      "Packet Analysis",
+      "Security Monitoring",
+    ],
+
+    github: "https://github.com/iqara/Wireshark-Network-Traffic-Analysis",
+  },
 ];
 
 function Cybersecurity() {
@@ -38,7 +62,7 @@ function Cybersecurity() {
         {/* Section Heading */}
         <div className="text-center mb-14">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
-            Cybersecurity Projects
+            Network Security Projects
           </h2>
 
           <p className="mt-4 text-gray-600 dark:text-gray-400">

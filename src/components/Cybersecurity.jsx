@@ -62,7 +62,7 @@ function Cybersecurity() {
         {/* Section Heading */}
         <div className="text-center mb-14">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white">
-            Network Security Projects
+            Cybersecurity Projects
           </h2>
 
           <p className="mt-4 text-gray-600 dark:text-gray-400">
